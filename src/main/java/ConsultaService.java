@@ -19,7 +19,7 @@ public class ConsultaService {
             TipoDeMoneda cantidad = consulta.consultaTipoDeMoneda(pair.base(), pair.monedaConverted(), amount);
             printResutado(pair, cantidad, amount);
         } else {
-            System.out.println("Opcion invalida, comprale una silla de ruedas");
+            System.out.println("Opcion invalida, comprale una silla de ruedas\n"+separador+"\n");
         }
     }
 
